@@ -1,0 +1,141 @@
+/* header */
+
+@media(max-width:768px) {
+    .nav-li {
+        margin-left: 15px;
+    }
+}
+@media(max-width:480px) {
+    .nav-ul {
+        flex-direction: column;
+    }
+}
+
+
+
+
+/* section 1 */
+@media (max-width: 1124px) {
+    .section1-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-wrapper {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .box {
+        height: auto;
+    }
+    .stair {
+        margin-bottom: 16px;
+    }
+    .read-more {
+      justify-content: center;    }
+    
+}
+@media (max-width: 540px) {
+    .room-image {
+        width: 260px;
+    }
+    
+}
+
+/* section2 */
+
+
+   @media (max-width: 1124px) {
+    
+    .section2-bg {
+        height: auto;
+   }
+   /* .section2-bg::before {
+       height: auto;
+   } */
+        
+    
+}   
+
+
+
+
+
+
+/* section3 */
+
+@media (max-width: 1124px) {
+    .section3-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-block {
+        margin-left: 2px;
+        margin-bottom: 10px;
+    }
+    
+}
+    @media (max-width: 768px) {
+        .section3-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .bed-image {
+            width: 450px;
+        }
+
+    }
+
+    @media (max-width: 480px) {
+        .section3-container {
+            flex-direction: column;
+            align-items: center;
+        }
+        .bed-image {
+            width: 320px;
+        }
+
+    }
+
+
+/* section 4 */
+
+@media (max-width: 1124px) {
+    .section4-image-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .section4-image-container img {
+     margin-bottom: 10px;
+     width: 400px;
+    }
+    
+} 
+
+@media (max-width: 400px) {
+    .section4-image-container img {
+        width: 310px;
+
+    }
+} 
+
+/* footer  */
+
+
+@media(max-width:800px) {
+    .lists {
+        flex-direction: column;
+    }
+    .lists ul {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:400px) {
+    .lists li {
+        font-size: 12px;
+    }
+}
